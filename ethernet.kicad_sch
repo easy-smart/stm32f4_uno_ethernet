@@ -4216,7 +4216,7 @@
     (property "Value" "LAN8742A" (at 99.1109 111.76 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias" (at 98.425 107.95 0)
+    (property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias" (at 98.425 107.95 0)
       (effects (font (size 1 1)) (justify left) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf" (at 97.155 120.65 0)
