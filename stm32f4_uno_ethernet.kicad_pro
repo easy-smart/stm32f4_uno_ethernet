@@ -532,6 +532,10 @@
       {
         "netclass": "Power",
         "pattern": "*/PR*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Earth"
       }
     ]
   },
