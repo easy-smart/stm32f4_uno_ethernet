@@ -2579,6 +2579,14 @@
     (uuid fe8239a1-6f7b-46cb-a3d5-9ce4dd36acdc)
   )
 
+  (text_box "PoE max. 350mA"
+    (at 199.39 83.82 0) (size 6.985 2.54)
+    (stroke (width 0.01) (type default) (color 255 0 0 1))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (face "Input Sans Compressed") (size 0.4 0.4) (color 255 0 0 1)))
+    (uuid 89e47f8e-72eb-436f-b396-23fbeb906d13)
+  )
+
   (label "LED2_K" (at 269.24 74.93 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 0a3a4a7a-b011-4eb8-8b23-24bfd65a7448)
