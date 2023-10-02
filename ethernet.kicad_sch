@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "STM32F4 Uno Ethernet")
+    (date "2023-10-02")
+    (rev "1.0.x-dev")
+    (company "easy-smart solution GmbH")
+  )
+
   (lib_symbols
     (symbol "#Connector:Boomele RJ45-TH_B-1-1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -5.08 13.97 0)

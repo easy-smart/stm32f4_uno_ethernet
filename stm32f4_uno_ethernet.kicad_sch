@@ -5,7 +5,10 @@
   (paper "A4")
 
   (title_block
-    (date "mar. 31 mars 2015")
+    (title "STM32F4 Uno Ethernet")
+    (date "2023-10-02")
+    (rev "1.0.x-dev")
+    (company "easy-smart solution GmbH")
   )
 
   (lib_symbols
