@@ -5136,13 +5136,13 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized_Small") (at 112.395 42.545 180) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_Small") (at 112.395 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6cf5174-777f-4c3f-9aec-02e4e3c68d15)
-    (property "Reference" "C?" (at 111.125 47.625 90)
+    (property "Reference" "C?" (at 111.125 43.815 90)
       (effects (font (size 1 1)) (justify right))
     )
-    (property "Value" "10u 16V" (at 111.125 41.275 90)
+    (property "Value" "10u 16V" (at 111.125 34.29 90)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" (at 112.395 42.545 0)
@@ -5313,8 +5313,8 @@
     (property "isBasicPart" "YES" (at 108.585 42.545 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid b705eeb6-d576-4a20-add1-ed34e84dc83f))
-    (pin "2" (uuid 6cc17b8f-c48c-4733-9e86-6f3ec16b1a0c))
+    (pin "1" (uuid 05b2ff2d-3094-4905-86dc-806d98481cfa))
+    (pin "2" (uuid f5d63863-b015-4e68-b19b-d0dd026427f1))
     (instances
       (project "stm32f407vg"
         (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"

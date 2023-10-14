@@ -6,8 +6,8 @@
 
   (title_block
     (title "STM32F4 Uno Ethernet")
-    (date "2023-10-02")
-    (rev "1.0.0")
+    (date "2023-10-14")
+    (rev "1.0.x-dev")
     (company "easy-smart solution GmbH")
   )
 
@@ -671,7 +671,6 @@
   (no_connect (at 199.39 37.465) (uuid ed797de6-2d51-4633-8193-d62b2112e1f9))
   (no_connect (at 184.785 70.485) (uuid f09c131f-f990-4f90-9d4b-32ebe8f4f6ea))
   (no_connect (at 184.785 78.105) (uuid f1a42606-f285-4c5d-816c-05d2dd6511b5))
-  (no_connect (at 184.785 40.005) (uuid f1bc66ee-9160-4169-affb-894a94832bbe))
   (no_connect (at 213.36 26.67) (uuid f3846c2c-bdfd-471d-a8e2-ae06145228ca))
   (no_connect (at 267.335 50.165) (uuid fb811a10-214c-41ff-a469-f463de5c5c1f))
 
@@ -1934,6 +1933,31 @@
       (project "stm32f4_uno_ethernet"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG0104") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 176.53 40.005 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a15b637e-490d-41cd-82f5-841b63957943)
+    (property "Reference" "#PWR0107" (at 180.34 40.005 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "+3V3" (at 171.45 40.005 90)
+      (effects (font (size 1 1)))
+    )
+    (property "Footprint" "" (at 176.53 40.005 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 176.53 40.005 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (pin "1" (uuid a8200c01-dc5f-42d3-bf88-44b0d8842add))
+    (instances
+      (project "stm32f4_uno_ethernet"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
